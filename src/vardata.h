@@ -23,11 +23,14 @@ THE SOFTWARE.
 #ifndef __VARDATA_H__
 #define __VARDATA_H__
 
+#include <limits>
 #include <boost/serialization/split_member.hpp>
 
 #include "constants.h"
 #include "propby.h"
 #include "avgcalc.h"
+
+using std::numeric_limits;
 
 namespace CMSat
 {
